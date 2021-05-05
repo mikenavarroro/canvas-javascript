@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!--Ejercicio 11.-->
+    <canvas id="canvas6" width="260" height="220" style="border:1px solid red;">
+      :(
+    </canvas>
+    <script>
+      var micanvas6 = document.getElementById("canvas6");
+      var cuadro2_3 = micanvas6.getContext("2d");
+      mi_gradiente=cuadro2_3.createLinearGradient(0,0,50,150);
+      mi_gradiente.addColorStop(0,"blue");
+      mi_gradiente.addColorStop(1,"white");
+      cuadro2_3.fillStyle=mi_gradiente;
+      cuadro2_3.fillRect(50, 50, 150, 100);
+    </script>
+  </body>
+</html>
