@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!--Ejercicio 10.-->
+    <canvas id="canvas5" width="260" height="220" style="border:1px solid red;">
+      :(
+    </canvas>
+    <script>
+      var micanvas5 = document.getElementById("canvas5");
+      var cuadro2_2 = micanvas5.getContext("2d");
+      for (i=21; i<=60; i++){
+        cuadro2_2.moveTo(40,60);
+        cuadro2_2.lineTo(i,100);
+        cuadro2_2.stroke();
+      }
+    </script>
+  </body>
+</html>
